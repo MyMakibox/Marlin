@@ -144,3 +144,8 @@
 
 #define SERVO0_PIN         5
 
+//
+// Trinamic 2130 ChipSelect pin definitions
+//
+#define X_CS_PIN  31 // Arduino pin 31 = Mega PC6/A14
+#define Y_CS_PIN  30 // Arduino pin 30 = Mega PC7/A15
