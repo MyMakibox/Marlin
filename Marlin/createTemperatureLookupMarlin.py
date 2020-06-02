@@ -56,8 +56,7 @@ class Thermistor:
 
     def res(self,adc):
         "Convert ADC reading into a resolution"
-        res = self.temp(adc)-self.temp(adc+1)
-        return res
+        return self.temp(adc)-self.temp(adc+1)
 
     def v(self,adc):
         "Convert ADC reading into a Voltage"
